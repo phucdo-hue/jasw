@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JASW Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="w-full py-6 px-6 flex justify-between items-center shadow-lg bg-white/70 backdrop-blur-md fixed top-0 left-0 z-50">
+    <div class="text-3xl font-extrabold tracking-wide text-blue-700">JASW</div>
+    <nav class="space-x-6 text-lg font-medium">
+      <a href="#home" class="hover:text-blue-600 transition">Home</a>
+      <a href="#solutions" class="hover:text-blue-600 transition">Solutions</a>
+      <a href="#careers" class="hover:text-blue-600 transition">Careers</a>
+      <a href="#contact" class="hover:text-blue-600 transition">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-cover bg-center px-6 relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
+
+    <h1 class="text-6xl font-extrabold text-white drop-shadow-xl relative z-10 mt-20">
+      Making Business Simple Again.
+    </h1>
+
+    <p class="text-2xl mt-6 max-w-3xl text-white drop-shadow-md relative z-10">
+      We provide comprehensive solutions for HR Recruitment, B2B Sales, and Digital Transformation.
+      Let us handle the complexity, so you can focus on growth.
+    </p>
+
+    <a href="#solutions" class="mt-10 inline-block bg-blue-600 text-white px-8 py-4 rounded-2xl text-xl shadow-xl hover:bg-blue-700 transition relative z-10">
+      Explore Solutions
+    </a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="solutions" class="py-28 px-6 bg-gradient-to-b from-gray-50 to-gray-100">
+    <h2 class="text-5xl font-bold text-center">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-12 mt-20 max-w-7xl mx-auto">
+      <div class="bg-white p-10 shadow-xl rounded-3xl hover:shadow-2xl hover:-translate-y-2 transition transform duration-300 border border-gray-100">
+        <h3 class="text-3xl font-semibold mb-4 text-blue-700">Talent Acquisition & HR</h3>
+        <p class="text-lg leading-relaxed">We connect top-tier talent with global enterprises. Our recruitment specialists ensure you find the perfect cultural fit.</p>
+      </div>
+      <div class="bg-white p-10 shadow-xl rounded-3xl hover:shadow-2xl hover:-translate-y-2 transition transform duration-300 border border-gray-100">
+        <h3 class="text-3xl font-semibold mb-4 text-blue-700">Business Development & Sales</h3>
+        <p class="text-lg leading-relaxed">Accelerate revenue with B2B sales consulting and market expansion services. We turn leads into partnerships.</p>
+      </div>
+      <div class="bg-white p-10 shadow-xl rounded-3xl hover:shadow-2xl hover:-translate-y-2 transition transform duration-300 border border-gray-100">
+        <h3 class="text-3xl font-semibold mb-4 text-blue-700">Digital & Tech Solutions</h3>
+        <p class="text-lg leading-relaxed">From software development to digital branding, we build the infrastructure your business needs to thrive.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section class="py-28 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-5xl font-bold mb-8 text-gray-900">
+        Just A Simple Work – Simply Effective.
+      </h2>
+      <p class="text-xl leading-relaxed text-gray-700">
+        Founded in 2023, Just A Simple Work was built on a singular promise: Complexity kills growth.
+        We are a global team of consultants, recruiters, and strategists dedicated to streamlining your
+        operations. Whether you need a remote workforce or a digital overhaul, we deliver simple,
+        effective results.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-gray-300 py-16 px-6 mt-10 border-t border-gray-700">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+      <div>
+        <h4 class="text-2xl font-semibold mb-4 text-white">Just A Simple Work</h4>
+        <p>125 Hoang Ngan, Yen Hoa, Ha Noi</p>
+        <p>Email: contact@justasimplework.store</p>
+      </div>
+
+      <div>
+        <h4 class="text-2xl font-semibold mb-4 text-white">Quick Links</h4>
+        <ul class="space-y-2 text-lg">
+          <li><a href="#privacy" class="hover:text-white transition">Privacy Policy</a></li>
+          <li><a href="#terms" class="hover:text-white transition">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="text-lg text-gray-400">
+        © 2024 Just A Simple Work Solutions. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
